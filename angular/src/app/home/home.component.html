@@ -1,0 +1,12 @@
+<div style="display: flex;align-items: center;height: 80vh;justify-content: center;flex-direction: column;">
+    <div style="margin-bottom: 5px;">
+        <button (click)="NotifySub()">Line Notify訂閱</button>
+        <button (click)="Logout()" style="margin-left: 10px;">登出</button>
+    </div>
+    <div style="margin-bottom: 5px;">
+        <textarea class="inputTextarea" style="overflow-y: auto" [(ngModel)]="sendNotifytext" placeholder="請輸入訊息..."></textarea>
+    </div>
+    <div>
+        <button (click)="SendNotifyAll()">發送</button>
+    </div>
+</div>

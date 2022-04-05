@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/de839093-f0ea-4ada-b39c-2bcba4ff28b4/resourceGroups/OauthTemplate_group-8264/providers/Microsoft.Web/sites/OauthTemplate",
+    "appService.deploySubpath": "dist\\angular"
+}
